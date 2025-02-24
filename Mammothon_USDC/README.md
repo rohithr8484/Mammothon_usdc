@@ -1,4 +1,4 @@
-🏗 Shenzu Pay
+Shenzu Pay
 A platform designed for creators to monetize digital content and subscription services with payments via USDC and credit cards. Built on Scaffold-ETH 2.
 
 ⚠️ Test Mode Guidelines
