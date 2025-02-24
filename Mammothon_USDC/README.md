@@ -83,23 +83,15 @@ Create a Redis database
 Copy your REST URL and TOKEN
 
 2. Run Local Blockchain
-bash
-Copy
-Edit
 yarn chain
 3. Start the Next.js Application
 Open a new terminal and run:
 
-bash
-Copy
-Edit
 yarn start
 Visit: http://localhost:3000
 
 📝 Additional Commands
-bash
-Copy
-Edit
+
 # Rebuild contracts after making changes
 yarn contracts:build  
 
