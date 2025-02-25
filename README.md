@@ -92,6 +92,7 @@ Copy your REST URL and TOKEN
 
 2. Run Local Blockchain
 yarn chain
+
 3. Start the Next.js Application
 Open a new terminal and run:
 
