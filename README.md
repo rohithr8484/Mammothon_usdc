@@ -110,7 +110,7 @@ You can view it in your browser at http://localhost:3000.
 5. Connect Your Wallet
 Once the app is running, you can connect your wallet by clicking the "Connect Wallet" button in the interface.
 
-6. Transfer USDC
+6. Buy Product 
 After connecting your wallet, you can buy the product with the amount of USDC/ by card
 
 📝 Additional Commands
