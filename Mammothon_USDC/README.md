@@ -26,6 +26,7 @@ Scaffold-ETH 2 Docs
 Privy Docs
 Stripe API
 Upstash Redis Docs
+
 🎯 Project Highlights
 This platform empowers creators to:
 
