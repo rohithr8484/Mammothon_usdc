@@ -72,7 +72,7 @@ Ensure you have the following installed:
 Node.js (v18.18+)
 Yarn (v1 or v2+)
 Git
-1. Set Up Environment Variables
+Set Up Environment Variables
 Create a .env.local file in the packages/nextjs directory.
 
 Privy Configuration
@@ -89,6 +89,7 @@ Upstash Redis Configuration
 Register at Upstash
 Create a Redis database
 Copy your REST URL and TOKEN
+
 1. Clone the Repository
 Open your terminal and clone the repository:
 
@@ -98,8 +99,8 @@ Change into the project directory:
 
 3. Install Dependencies
 Run the following command to install the required dependencies:
-
 yarn install
+
 4. Run the Development Server
 Start the development server with the following command:
 
@@ -111,6 +112,7 @@ Once the app is running, you can connect your wallet by clicking the "Connect Wa
 
 6. Transfer USDC
 After connecting your wallet, you can buy the product with the amount of USDC/ by card
+
 📝 Additional Commands
 
 # Rebuild contracts after making changes
