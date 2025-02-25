@@ -35,7 +35,7 @@ export const HomeContent = () => {
     <div className="flex items-center flex-col flex-grow pt-5 sm:pt-10">
       <div className="px-2 sm:px-5 w-full">
         <h1 className="text-center mb-8">
-          <span className="block text-3xl sm:text-4xl font-bold">IdeaBox</span>
+          <span className="block text-3xl sm:text-4xl font-bold">Shenzu Spending Ideation</span>
         </h1>
         {/* Products */}
         <div className="w-full max-w-7xl mx-auto mt-8 sm:mt-16">
