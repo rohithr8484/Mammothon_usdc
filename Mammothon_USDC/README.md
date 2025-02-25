@@ -30,9 +30,14 @@ Upstash Redis Docs
 This platform empowers creators to:
 
 Sell downloadable digital products
+
 Offer subscription-based services
+
 Accept payments in both crypto and fiat
+
 Manage user data and sessions via Redis
+
+
 🔧 Tech Stack
 Core Infrastructure
 Scaffold-ETH 2 – Ethereum development framework
