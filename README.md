@@ -89,17 +89,28 @@ Upstash Redis Configuration
 Register at Upstash
 Create a Redis database
 Copy your REST URL and TOKEN
+1. Clone the Repository
+Open your terminal and clone the repository:
 
-2. Run Local Blockchain
-yarn chain
 
-3. Start the Next.js Application
-Open a new terminal and run:
+2. Navigate to the Project Directory
+Change into the project directory:
+
+3. Install Dependencies
+Run the following command to install the required dependencies:
+
+yarn install
+4. Run the Development Server
+Start the development server with the following command:
 
 yarn start
+You can view it in your browser at http://localhost:3000.
 
-Visit: http://localhost:3000
+5. Connect Your Wallet
+Once the app is running, you can connect your wallet by clicking the "Connect Wallet" button in the interface.
 
+6. Transfer USDC
+After connecting your wallet, you can buy the product with the amount of USDC/ by card
 📝 Additional Commands
 
 # Rebuild contracts after making changes
