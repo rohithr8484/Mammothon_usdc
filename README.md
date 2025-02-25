@@ -1,135 +1,110 @@
-# 🏗 IdeaBox (WIP)
+# ShenzuSpendingMarket
 
-A platform for creators to sell digital content and subscription services payment via USDC and Credit Card, built on [Scaffold-ETH 2](https://github.com/scaffold-eth/scaffold-eth-2).
+A platform designed for creators to monetize digital content and subscription services with payments via USDC and credit cards. Built on Scaffold-ETH 2.
 
-> ⚠️ **Test Mode Instructions**
->
-> ```
-> Currently the app is in test mode, so you can test the USDC payment as well as the Card payment method:
->
-> 1. For Crypto Payment: (only on local network)
->    - Use the faucet to get some ETH
->    - The payment will be successful but will send test ETH
->    - ETH will be transferred on Localhost instead of USDC on live chain
->
-> 2. For Credit Card Payment: (works on live demo)
->    - Test Card Number: 4242 4242 4242 4242
->    - CVC: Any 3 digits
->    - Expiry Date: Any future date
->
-> 3. Development Environment:
->    - All features run on localhost for testing
->    - Free tier available for all integrations (Privy, Stripe, Upstash)
->    - Perfect for testing product demand before upgrading to paid tiers
-> ```
+⚠️ Test Mode Guidelines
 
-## 📚 Documentation Links
+The application is currently in test mode, allowing you to try out USDC and credit card payments:
+ 
+1. **Crypto Payments (Local Network Only)**  
+   - Use the faucet to obtain ETH  
+   - Transactions will process successfully but will send test ETH  
+   - Payments occur on Localhost instead of USDC on the live blockchain  
+ 
+2. **Credit Card Payments (Live Demo Available)**  
+   - Test card details: 4242 4242 4242 4242  
+   - CVC: Any three digits  
+   - Expiry: Any future date  
+ 
+3. **Development Environment**  
+   - Features operate locally for testing  
+   - Free-tier support for integrations (Privy, Stripe, Upstash)  
+   - Ideal for testing market demand before upgrading to paid plans
+     
+📚 Documentation
+Scaffold-ETH 2 Docs
+Privy Docs
+Stripe API
+Upstash Redis Docs
 
--   [Scaffold-ETH 2 Documentation](https://docs.scaffoldeth.io/)
--   [Privy Documentation](https://docs.privy.io/)
--   [Stripe API Reference](https://stripe.com/docs/api)
--   [Upstash Redis Docs](https://docs.upstash.com/redis)
+🎯 Project Highlights
+This platform empowers creators to:
 
-## 🎯 Project Overview
+Sell downloadable digital products
 
-This platform enables creators to:
+Offer subscription-based services
 
--   Sell downloadable digital content
--   Offer subscription-based services
--   Receive payments in both crypto and fiat currencies
--   Store user data and session management with Redis
+Accept payments in both crypto and fiat
 
-## 🔧 Technical Stack
+Manage user data and sessions via Redis
 
-### Core Infrastructure
 
--   [**Scaffold-ETH 2**](https://github.com/scaffold-eth/scaffold-eth-2) - Ethereum development stack
+🔧 Tech Stack
+Core Infrastructure
+Scaffold-ETH 2 – Ethereum development framework
+Authentication & Payments
+Privy – Web3 authentication
+Stripe – Payment processing
+Database & Caching
+Upstash Redis – Serverless Redis database
 
-### Authentication & Payments
+🌟 Key Features
+Digital Content Marketplace
+Upload and sell digital assets
+Content preview functionality
 
--   [**Privy**](https://www.privy.io/) - Web3 Authentication
+Subscription Model
+Time-based access control
+Automated recurring payments
+Membership benefit management
+Payment Integration
 
--   [**Stripe**](https://stripe.com/docs/api) - Payment Processing
+Support for USDC transactions
+Fiat payment processing via Stripe
+Automated revenue distribution
 
-### Database & Caching
 
--   [**Upstash Redis**](https://upstash.com/) - Serverless Redis Database
+🚀 Getting Started with the Project
+Prerequisites
+Ensure you have the following installed:
 
-## 🌟 Key Features
+Node.js (v18.18+)
+Yarn (v1 or v2+)
+Git
+1. Set Up Environment Variables
+Create a .env.local file in the packages/nextjs directory.
 
--   **Content Marketplace**
+Privy Configuration
+Sign in to Privy Dashboard
+Create a new project
+Copy your APP_ID
+Stripe Configuration
 
-    -   Upload and sell digital content
-    -   Content preview functionality
+Sign up at Stripe
+Retrieve API keys from Stripe Dashboard
 
--   **Subscription System**
 
-    -   Time-based access control
-    -   Recurring payment handling
-    -   Membership benefits management
-    -   Subscription management
+Upstash Redis Configuration
+Register at Upstash
+Create a Redis database
+Copy your REST URL and TOKEN
 
--   **Payment Options**
-    -   Cryptocurrency payments (USDC)
-    -   Fiat currency integration via Stripe
-    -   Automated revenue distribution
-
-## 🚀 Quick Start of the project / Scaffold-ETH 2 app
-
-## Prerequisites
-
-Before you begin, you need to install the following tools:
-
--   [Node (>= v18.18)](https://nodejs.org/en/)
--   [Yarn (v1 or v2+)](https://yarnpkg.com/getting-started/install)
--   [Git](https://git-scm.com/downloads)
-
-### 1. Create a `.env.local` file in the packages/nextjs directory:
-
-## Service Account Setup
-
-#### Privy Setup
-
-1. Go to [Privy Dashboard](https://console.privy.io/)
-2. Create a new project
-3. Copy your `APP_ID` from the dashboard
-
-#### Stripe Setup
-
-1. Create a [Stripe Account](https://dashboard.stripe.com/register)
-2. Get your API keys from the [Stripe Dashboard](https://dashboard.stripe.com/apikeys)
-
-#### Upstash Redis Setup
-
-1. Create account at [Upstash](https://console.upstash.com/)
-2. Create new Redis database
-3. Get your REST URL and TOKEN from the database details page
-
-### 2. Start a local chain
-
-```bash
+2. Run Local Blockchain
 yarn chain
-```
+3. Start the Next.js Application
+Open a new terminal and run:
 
-### 3. Start your NextJS app
-
-in a new terminal, run:
-
-```bash
 yarn start
-```
 
-Visit your app at: http://localhost:3000
+Visit: http://localhost:3000
 
-## 📝 Additional Commands
+📝 Additional Commands
 
-```bash
-# Rebuild contracts if you make changes
-yarn contracts:build
+# Rebuild contracts after making changes
+yarn contracts:build  
 
 # Run contract tests
-yarn test
+yarn test  
 
-# Build for production
-yarn build
-```
+# Build the project for production
+yarn build  
