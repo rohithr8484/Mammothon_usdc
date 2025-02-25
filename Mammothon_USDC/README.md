@@ -101,4 +101,3 @@ yarn test
 
 # Build the project for production
 yarn build  
-This maintains the original intent while improving readability and conciseness. Let me know if you’d like any refinements! 🚀
