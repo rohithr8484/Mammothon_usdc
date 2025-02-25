@@ -88,6 +88,7 @@ yarn chain
 Open a new terminal and run:
 
 yarn start
+
 Visit: http://localhost:3000
 
 📝 Additional Commands
