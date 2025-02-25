@@ -10,7 +10,7 @@ import {
 export const sampleProducts = {
   digital: {
     id: BigInt(1),
-    name: "Digital Product / Download",
+    name: "Digital Item / Downloadable Resource",
     price: BigInt(3), // $3
     body: "Option to offer content for download",
     downloadUrl: "https://example.com/web3-toolkit-pro",
@@ -27,7 +27,7 @@ export const sampleProducts = {
 
   course: {
     id: BigInt(2),
-    name: "Course / Access",
+    name: "Learning Course / Access",
     price: BigInt(3), // $3
     body: "Option to offer access to a course for a limited time",
     accessDuration: 365, // 1 year access
@@ -51,7 +51,7 @@ export const sampleProducts = {
 
   subscription: {
     id: BigInt(3),
-    name: "Subscription / Access",
+    name: "Subscription based / Access",
     price: BigInt(5), // $5
     body: "Option to offer access to a subscription service for a limited time",
     billingCycle: "monthly",
@@ -75,7 +75,7 @@ export const sampleProducts = {
 
   softwareLicense: {
     id: BigInt(102),
-    name: "Web3 Development Suite Pro",
+    name: "Web3 Pro Suite",
     price: BigInt(9), // $9
     body: "Professional development toolkit for Web3 applications",
     licenseType: "subscription",
@@ -116,16 +116,16 @@ export const sampleProducts = {
 
   membership: {
     id: BigInt(103),
-    name: "Web3 Builders Club",
+    name: "Web3 Builders suite",
     price: BigInt(5), // $5
-    body: "Exclusive community for Web3 developers and entrepreneurs",
+    body: "Exclusive community for Web3 developers",
     tier: "gold",
     duration: 30, // 30 days
     benefits: [
       "Private Discord Access",
       "Weekly Developer Workshops",
       "Early Access to Features",
-      "1-on-1 Mentoring Sessions",
+      "1:1 Mentoring Sessions",
       "Exclusive NFT Drops",
     ],
     accessiblePlatforms: ["Discord", "Telegram", "Forum"],
@@ -157,9 +157,9 @@ export const sampleProducts = {
 
   apiAccess: {
     id: BigInt(105),
-    name: "Blockchain Data API Pro",
+    name: "Blockchain Pro Data API",
     price: BigInt(2), // $2
-    body: "Professional access to blockchain data and analytics API",
+    body: "Professional access to blockchain and analytics API",
     tier: "pro",
     rateLimit: {
       requestsPerSecond: 10,
@@ -186,7 +186,7 @@ export const sampleProducts = {
     features: [
       "1M API Calls per Month",
       "99.9% Uptime SLA",
-      "Real-time Data Access",
+      "Real-time Access to data",
       "Advanced Analytics",
       "Custom Endpoints",
     ],
