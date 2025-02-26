@@ -104,7 +104,6 @@ Change into the project directory:
 3. Install Dependencies
 Run the following command to install the required dependencies:
 
-
 yarn install
 
 5. Run the Development Server
@@ -122,12 +121,6 @@ Once the app is running, you can connect your wallet by clicking the "Connect Wa
 After connecting your wallet, you can buy the product with the amount of USDC/ by card
 
 📝 Additional Commands
-
-# Rebuild contracts after making changes
-yarn contracts:build  
-
-# Run contract tests
-yarn test  
 
 # Build the project for production
 yarn build  
