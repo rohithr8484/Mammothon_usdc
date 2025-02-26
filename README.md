@@ -21,6 +21,9 @@ The application is currently in test mode, allowing you to try out USDC and cred
    - Features operate locally for testing  
    - Free-tier support for integrations (Privy, Stripe, Upstash)  
    - Ideal for testing market demand before upgrading to paid plans
+  
+     ![image](https://github.com/user-attachments/assets/83b41248-e320-4761-8eaa-1ffb31a52055)
+
      
 📚 Documentation
 Scaffold-ETH 2 Docs
