@@ -45,6 +45,7 @@ Manage user data and sessions via Redis
 
 🔧 Tech Stack
 Core Infrastructure
+
 Scaffold-ETH 2 – Ethereum development framework
 Authentication & Payments
 Privy – Web3 authentication
