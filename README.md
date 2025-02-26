@@ -99,12 +99,16 @@ Change into the project directory:
 
 3. Install Dependencies
 Run the following command to install the required dependencies:
+
+
 yarn install
 
-4. Run the Development Server
+5. Run the Development Server
 Start the development server with the following command:
 
 yarn start
+
+
 You can view it in your browser at http://localhost:3000.
 
 5. Connect Your Wallet
