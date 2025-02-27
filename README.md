@@ -68,8 +68,8 @@ Automated recurring payments
 Membership benefit management
 Payment Integration
 
-Support for USDC transactions
-Fiat payment processing via Stripe
+Support for Fiat USD-USDC transactions
+processing via Stripe
 Automated revenue distribution
 
 
