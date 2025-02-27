@@ -26,12 +26,16 @@ The application is currently in test mode, allowing you to try out USDC and cred
 
      
 📚 Documentation
+
+
 Scaffold-ETH 2 Docs
 Privy Docs
 Stripe API
 Upstash Redis Docs
 
 🎯 Project Highlights
+
+
 This platform empowers creators to:
 
 Sell downloadable digital products
