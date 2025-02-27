@@ -119,6 +119,7 @@ yarn install
 
 
 4. Run the Development Server
+
    Start the development server with the following command:
 ---
 yarn start
