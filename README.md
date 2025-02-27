@@ -77,25 +77,26 @@ Automated revenue distribution
 Prerequisites
 Ensure you have the following installed:
 
-Node.js (v18.18+)
-Yarn (v1 or v2+)
-Git
-Set Up Environment Variables
+Node.js (v18.18+)-
+Yarn (v1 or v2+)-
+Git-
+Set Up Environment Variables-
 Create a .env.local file in the packages/nextjs directory.
 
 Privy Configuration
-Sign in to Privy Dashboard
-Create a new project
-Copy your APP_ID
+
+Sign in to Privy Dashboard-
+Create a new project-
+Copy your APP_ID-
 Stripe Configuration
 
-Sign up at Stripe
+Sign up at Stripe-
 Retrieve API keys from Stripe Dashboard
 
 
 Upstash Redis Configuration
-Register at Upstash
-Create a Redis database
+Register at Upstash-
+Create a Redis database-
 Copy your REST URL and TOKEN
 
 1. Clone the Repository
