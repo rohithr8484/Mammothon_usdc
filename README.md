@@ -3,6 +3,7 @@
 
 A platform designed for creators to monetize digital content and subscription services with payments via USDC and credit cards. Built at Encode Mammothon 2025
 
+
 ⚠️ Test Mode Guidelines
 
 The application is currently in test mode, allowing you to try out USDC and credit card payments:
@@ -33,6 +34,7 @@ Privy Docs
 Stripe API
 Upstash Redis Docs
 
+
 🎯 Project Highlights
 
 
@@ -57,10 +59,12 @@ Stripe – Payment processing
 Database & Caching
 Upstash Redis – Serverless Redis database
 
+
 🌟 Key Features
 Digital Content Marketplace
 Upload and sell digital assets
 Content preview functionality
+
 
 Subscription Model
 Time-based access control
@@ -101,6 +105,7 @@ Retrieve API keys from Stripe Dashboard
 Register at Upstash-
 Create a Redis database-
 Copy your REST URL and TOKEN
+
 
 🌟Quickstart
 
