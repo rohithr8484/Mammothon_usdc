@@ -107,14 +107,14 @@ Change into the project directory:
 
 3. Install Dependencies
 Run the following command to install the required dependencies:
-
+---
 yarn install
-
+---
 5. Run the Development Server
 Start the development server with the following command:
-
+---
 yarn start
-
+---
 
 You can view it in your browser at http://localhost:3000.
 
@@ -127,4 +127,8 @@ After connecting your wallet, you can buy the product with the amount of USDC/ b
 📝 Additional Commands
 
 # Build the project for production
+---
 yarn build  
+---
+
+🏗 Project created using [Scaffold-ETH 2](https://scaffoldeth.io/)
