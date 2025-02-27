@@ -74,6 +74,7 @@ Automated revenue distribution
 
 
 🚀 Getting Started with the Project
+
 Prerequisites
 Ensure you have the following installed:
 
