@@ -95,6 +95,7 @@ Retrieve API keys from Stripe Dashboard
 
 
 Upstash Redis Configuration
+
 Register at Upstash-
 Create a Redis database-
 Copy your REST URL and TOKEN
