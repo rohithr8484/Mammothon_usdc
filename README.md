@@ -1,7 +1,7 @@
 # ShenzuSpendingVault
 
 
-A platform designed for creators to monetize digital content and subscription services with payments via USDC and credit cards. Built on Scaffold-ETH 2 at Encode Mammothon 2025
+A platform designed for creators to monetize digital content and subscription services with payments via USDC and credit cards. Built at Encode Mammothon 2025
 
 ⚠️ Test Mode Guidelines
 
