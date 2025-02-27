@@ -83,7 +83,8 @@ Git-
 Set Up Environment Variables-
 Create a .env.local file in the packages/nextjs directory.
 
-Privy Configuration
+
+🌟Privy Configuration
 
 Sign in to Privy Dashboard-
 Create a new project-
@@ -94,11 +95,13 @@ Sign up at Stripe-
 Retrieve API keys from Stripe Dashboard
 
 
-Upstash Redis Configuration
+🚀Upstash Redis Configuration
 
 Register at Upstash-
 Create a Redis database-
 Copy your REST URL and TOKEN
+
+🌟Quickstart
 
 1. Clone the Repository
 Open your terminal and clone the repository:
